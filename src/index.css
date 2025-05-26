@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --bg-color: #fff;
+    --bg-black: #121212;
+    --sidebar-bg-color: #f9f9f9;
+    --sidebar-border-color: #d1d1d1;
+    --dark-grey: rgb(97, 97, 97);
+    --darker-grey: #323232;
+    --border-color: #e5e5e5;
+    --input-color: #f7f6f6;
+    --light-blue: #2196f3;
+    --dark-blue: #001381;
+    --yelow-color: #d5ab55;
+    --btn-bg: rgba(255, 255, 255, 0.8);
+    --btn-border: #ccc;
+    --btn-hover: #eeeeee;
+    --checkmark-bg: #eee;
+    --checkmark-bg-dark: #ccc;
+    --input-shadow: rgba(0, 0, 0, 0.1);
+
+}
+
+/* ----dark-mode---- */
+.dark-mode {
+    --bg-color: #1e1e1e;
+    --bg-black: #fff;
+    --sidebar-bg-color: #1a1a1a;
+    --sidebar-border-color: #333;
+    --dark-grey: #cccccc;
+    --darker-grey: #e0e0e0;
+    --border-color: #444;
+    --input-color: #1e1e1e;
+    --light-blue: #64b5f6;
+    --dark-blue: #90caf9;
+    --yelow-color: #f1c75b;
+    --btn-bg: rgba(255, 255, 255, 0.05);
+    --btn-border: #666;
+    --btn-hover: #333;
+    --checkmark-bg: #444;
+    --checkmark-bg-dark: #666;
+    --input-shadow: rgba(255, 255, 255, 0.05);
+}
+
+
+body {
+    background-color: var(--bg-color);
+    color: var(--bg-black);
+    transition: all 0.7s;
+}
+
+a {
+    text-decoration: none;
+    color: var(--dark-grey)
+}
+
+li {
+    list-style: none;
+}
