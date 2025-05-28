@@ -5,11 +5,12 @@
 }
 
 .sidebar {
-    margin-top: 5rem;
+    padding-top: 5rem;
     width: 15%;
     min-width: 180px;
     position: fixed;
-    height: 100%;
+    top: 0;
+    height: 100vh;
     background-color: var(--sidebar-bg-color);
     border-right: 1px solid var(--sidebar-border-color);
     z-index: 3;

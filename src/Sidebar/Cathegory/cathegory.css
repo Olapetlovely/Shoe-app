@@ -62,6 +62,10 @@
     user-select: none;
 }
 
+/* .sidebar-label-container:last-of-type {
+    margin-bottom: 45px;
+} */
+
 .sidebar-label-container input {
     position: absolute;
     opacity: 0;
