@@ -4,7 +4,7 @@ import Products from "./products/Products";
 import Recommended from "./Recommended/Recommended";
 import Sidebar from "./Sidebar/Sidebar";
 import Card from "./components/Card";
-
+import Footer from "./Footer/Footer";
 // Database
 import products from "./db/data"
 
@@ -84,6 +84,7 @@ function App() {
         isMenu={isMenu}
       />
       <Products result={result} />
+      <Footer />
     </>
   )
 }

@@ -11,6 +11,7 @@
     --bg-black: #121212;
     --sidebar-bg-color: #f9f9f9;
     --sidebar-border-color: #d1d1d1;
+    --sidebar-header-bg: #f5f5f5;
     --dark-grey: rgb(97, 97, 97);
     --darker-grey: #323232;
     --border-color: #e5e5e5;
@@ -33,6 +34,7 @@
     --bg-black: #fff;
     --sidebar-bg-color: #1a1a1a;
     --sidebar-border-color: #333;
+    --sidebar-header-bg: #2c2c2c;
     --dark-grey: #cccccc;
     --darker-grey: #e0e0e0;
     --border-color: #444;

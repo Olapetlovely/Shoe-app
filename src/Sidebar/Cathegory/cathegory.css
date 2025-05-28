@@ -1,11 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
-
 .theme-toggle {
-    margin-top: 18px;
+    margin-top: 8px;
     display: flex;
     align-items: center;
-    gap: 5px;
+    gap: 1.4rem;
 }
 
 .theme-toggle p {

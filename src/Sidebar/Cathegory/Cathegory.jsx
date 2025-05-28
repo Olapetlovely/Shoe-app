@@ -5,7 +5,6 @@ import ThemeToggle from "../../components/ThemeToggle";
 const Cathegory = ({ handleChange }) => {
   return (
     <>
-      <ThemeToggle />
       <h2 className="sidebar-title">Cathegory</h2>
 
       <div>
